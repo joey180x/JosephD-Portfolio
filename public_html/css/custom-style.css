@@ -1,0 +1,40 @@
+html {
+  width: 100% ;
+  height: 100% ;
+  background: radial-gradient(center, #FFF 0%, #CCC 70%, #CCC 100%) no-repeat;
+  background: -moz-radial-gradient(center, #FFF 0%, #CCC 70%, #CCC 100%) no-repeat;
+  background: -webkit-radial-gradient(center, #FFF 0%, #CCC 70%, #CCC 100%) no-repeat;
+}
+
+.commander {
+  position: relative;
+  margin-left: -100px;
+  left: 50%;
+}
+
+.commander p {
+  width: 200px;
+  color: #2E3F47;
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  width: 150px;
+  margin: 10px auto;
+}
+
+div {
+    border-style: solid;
+    border-width: 5px;
+    padding: 30px;
+}
+
+.container {
+    border-color: blue;
+}
+
+.row {
+    border-color: red;
+}
